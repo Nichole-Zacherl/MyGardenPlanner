@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGardenPlanner", "MyGardenPlanner\MyGardenPlanner.csproj", "{3AD3B2E7-ADA0-43D2-AB5E-929A68C493D1}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "MyGarden.Client", "reactapp\MyGarden.Client.esproj", "{DA234840-CEA3-4C6E-8F6E-F268860D9DA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AD3B2E7-ADA0-43D2-AB5E-929A68C493D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AD3B2E7-ADA0-43D2-AB5E-929A68C493D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AD3B2E7-ADA0-43D2-AB5E-929A68C493D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AD3B2E7-ADA0-43D2-AB5E-929A68C493D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA234840-CEA3-4C6E-8F6E-F268860D9DA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA234840-CEA3-4C6E-8F6E-F268860D9DA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA234840-CEA3-4C6E-8F6E-F268860D9DA8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DA234840-CEA3-4C6E-8F6E-F268860D9DA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA234840-CEA3-4C6E-8F6E-F268860D9DA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA234840-CEA3-4C6E-8F6E-F268860D9DA8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45E5A7F4-EEB5-48E7-8109-B4104010E13B}
+	EndGlobalSection
+EndGlobal
