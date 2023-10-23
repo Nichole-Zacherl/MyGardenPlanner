@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "vtFqMLCyxk05Ll1oj3CXrJC0je5AAKbtibsUR9Ao5yE=",
+  "Source": "MyGardenPlanner.Server.BE",
+  "BasePath": "_content/MyGardenPlanner.Server.BE",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,2 @@
+C:\Users\nlz16\Projects\MyGardenPlanner\reactapp\obj\Debug\reactapp.esproj.SuggestedBindingRedirects.cache
+C:\Users\nlz16\Projects\MyGardenPlanner\reactapp\obj\Debug\reactapp.esproj.CoreCompileInputs.cache
