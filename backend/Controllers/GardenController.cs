@@ -37,5 +37,23 @@ namespace MyGardenPlanner.Controllers
             return gardenList;
         }
 
+        [HttpPut]
+        public ActionResult<Garden> Put()
+        {
+            throw new NotImplementedException();
+        }
+
+        [HttpPost]
+        public ActionResult<Garden> Post()
+        {
+            throw new NotImplementedException();
+        }
+
+        [HttpDelete]
+        public ActionResult<Garden> Delete()
+        {
+            throw new NotImplementedException();
+        }
+
     }
 }

@@ -3,7 +3,7 @@ import "./index.css";
 
 import MyAppBar from "./components/MyAppBar";
 
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import HomePage from "./pages/Home";
 import CreateGarden from "./pages/CreateGarden";
@@ -44,7 +44,7 @@ function App() {
     <div>
       <div className="main">
         <div className="header">
-          <BrowserRouter>
+          <Router>
             <MyAppBar />
             <Routes>
               <Route path="/" element={<HomePage />} />
@@ -54,7 +54,7 @@ function App() {
               <Route path="remains" element={<Remaining />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
-          </BrowserRouter>
+          </Router>
         </div>
       </div>
     </div>

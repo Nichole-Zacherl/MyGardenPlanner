@@ -15,7 +15,7 @@ namespace MyGardenPlanner.Models
         public double Length { get; set; }
         [Column("Width")]
         public double Width { get; set; }
-        //[Column("PlantIds")]
-        //public ICollection<Plant>? Plants { get; set; }
+        [Column("PlantIds")]
+        public ICollection<Plant>? Plants { get; set; }
     }
 }

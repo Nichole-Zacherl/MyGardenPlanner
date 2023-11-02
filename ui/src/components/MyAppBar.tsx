@@ -10,6 +10,8 @@ function MyAppBar() {
   /* 
   **TO DO: AUTHENTIFICATION**
   **Coded out section is for user profile when authentification is later added in **
+  **May want to Delete Link if page loading takes time**
+  **Deleting link cause typography to reload each page and removes error**
   
   const settings = ["Profile", "Account", "Dashboard", "Logout"];
   const [anchorElUser, setAnchorElUser] = React.useState<null | HTMLElement>(

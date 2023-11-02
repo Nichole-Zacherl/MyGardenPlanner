@@ -27,5 +27,8 @@ namespace MyGardenPlanner.Data
         public DbSet<Garden> Garden { get; set; }
         public DbSet<Plant> Plant { get; set; }
         public DbSet<PlantCategory> PlantCategory { get; set; }
+        public DbSet<User> User { get; set; }
+
+
     }
 }
